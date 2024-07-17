@@ -1,0 +1,214 @@
+body {
+  margin: 30px;
+  font-family: "poppins";
+}
+
+.grid-container {
+  
+  
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  
+ 
+}
+
+.grid-container > div {
+  background: #ccc;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid;
+}
+
+.grid-container > div:nth-child(1) {
+  grid-column: 1 / span 2;
+  background: turquoise;
+  font-size: 30px;
+}
+
+.grid-container > div:nth-child(2) {
+  grid-column: 3 / span 3;
+  
+}
+
+.grid-container > div:nth-child(3) {
+  grid-column: span 1;
+}
+
+.grid-container > div:nth-child(4) {
+  grid-column: span 12;
+  margin-top: 200px;
+  height: 50px;
+  font-size: 50px;
+  text-align: center;
+  background: turquoise;
+}
+
+.grid-container > div:nth-child(5) {
+  grid-column: span 1;
+  margin: 10px;
+  margin-top: 50px;
+  height: 100px;
+  width: 100px;
+}
+
+.grid-container > div:nth-child(6) {
+  grid-column: span 1;
+  margin: 10px;
+  margin-top: 50px;
+  height: 200px;
+}
+
+.grid-container > div:nth-child(7) {
+  grid-column: span 1;
+  margin: 10px;
+  margin-top: 50px;
+  height: 200px;
+}
+
+.grid-container > div:nth-child(8) {
+  grid-column: span 1;
+  margin: 10px;
+  margin-top: 50px;
+  height: 200px;
+}
+
+.grid-container > div:nth-child(9) {
+  grid-column: span 1;
+  margin: 10px;
+  margin-top: 50px;
+  height: 200px;
+  border: none;
+  background: none;
+ 
+}
+
+
+.grid-container > div:nth-child(10) {
+  grid-column: span 1;
+  margin: 10px;
+  margin-top: 10px;
+  height: 230px;
+  border: none;
+  background: none;
+  
+ 
+}
+
+.grid-container > div:nth-child(11) {
+  grid-column: span 12;
+  margin-top: 100px;
+  height: 50px;
+  text-align: center;
+  background: turquoise;
+  font-size: 50px;
+}
+
+.grid-container > div:nth-child(12) {
+  grid-column: span 1;
+  margin: 10px;
+  margin-top: 50px;
+  height: 200px;
+}
+
+.grid-container > div:nth-child(13) {
+  grid-column: span 1;
+  margin: 10px;
+  margin-top: 50px;
+  height: 200px;
+}
+
+.grid-container > div:nth-child(14) {
+  grid-column: span 1;
+  margin: 10px;
+  margin-top: 50px;
+  height: 200px;
+}
+
+.grid-container > div:nth-child(15) {
+  grid-column: span 1;
+  margin: 10px;
+  margin-top: 50px;
+  height: 200px;
+}
+
+.grid-container > div:nth-child(16) {
+  grid-column: span 1;
+  margin: 10px;
+  margin-top: 50px;
+  height: 200px;
+  border: none;
+  background: none;
+}
+
+.grid-container > div:nth-child(17) {
+  grid-column: span 1;
+  margin: 10px;
+  margin-top: 50px;
+  height: 200px;
+  border: none;
+  background: none;
+}
+
+.grid-container > div:nth-child(18) {
+  grid-column: span 12;
+  margin-top: 100px;
+  height: 50px;
+  text-align: center;
+  background: turquoise;
+  font-size: 50px;
+}
+
+.grid-container > div:nth-child(19) {
+  grid-column: span 1;
+  margin: 10px;
+  margin-top: 50px;
+  height: 200px;
+}
+
+.grid-container > div:nth-child(20) {
+  grid-column: span 1;
+  margin: 10px;
+  margin-top: 50px;
+  height: 200px;
+}
+
+.grid-container > div:nth-child(21) {
+  grid-column: span 1;
+  margin: 10px;
+  margin-top: 50px;
+  height: 200px;
+}
+
+.grid-container > div:nth-child(22) {
+  grid-column: span 1;
+  margin: 10px;
+  margin-top: 50px;
+  height: 200px;
+}
+
+.grid-container > div:nth-child(23) {
+  grid-column: span 1;
+  margin: 10px;
+  margin-top: 50px;
+  height: 200px;
+  border: none;
+  background: none;
+}
+
+.grid-container > div:nth-child(24) {
+  grid-column: span 1;
+  margin: 10px;
+  margin-top: 50px;
+  height: 200px;
+  border: none;
+  background: none;
+}
+
+.images {
+  
+  border: 1px solid;
+  margin: 10px;
+  width: 400px;
+  height: auto;
+}
